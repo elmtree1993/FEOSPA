@@ -1,0 +1,84 @@
+body {
+    background-color:rgb(19, 27, 49);
+    color: rgb(176, 230, 230);
+    font-size: large;
+}
+
+#flexContainer {
+    display: flex;
+    
+}
+
+#mainPic {
+    width: 70%;
+    height: auto;
+    border-radius: 10%;
+    padding: 2%;
+}
+
+#nameContainer {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px; /* Adjust the value to your desired offset from the top */
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bigContainer {
+    width: 50%;
+    justify-content: right;
+}
+
+.littleBox {
+    padding: 1%;
+    display: flex;
+    align-items: center;
+}
+
+#tech {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#techTitle {
+    align-items: center;
+    justify-self: center;
+}
+
+li {
+    list-style: none;
+    background-color: rgb(66, 73, 52);
+    width: 90px;
+    border-radius: 15px;
+    text-align: center;
+   
+}
+
+.hover-list {
+    list-style: none;
+    padding: 0;
+}
+
+.hover-list li {
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(66, 73, 52);;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+.hover-list li:hover {
+    background-color: lightblue; /* Set the desired background color on hover */
+    color: black;
+}
+
+h3 {
+    text-align: center;
+}
+
+.label {
+    padding: 5px;
+}
